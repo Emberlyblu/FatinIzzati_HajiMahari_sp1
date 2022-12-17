@@ -1,0 +1,204 @@
+#navbarNav ul{
+    border-radius:8px;
+}
+
+thead{
+    background-color:#0E8EA8;
+    color:#fff;
+    font-size: 22px;
+}
+
+tbody{
+    background-color:#83D1E1;
+    color:#212529;
+    font-size: 20px;
+}
+
+td {
+    cursor: pointer;
+}
+
+#tableContainer{
+    margin-top: 22%;
+    text-align: center;
+}
+
+#staffTable tr:hover{
+    background-color:#54c2d8;
+    color:#fff;
+}
+
+#deliveryTable tr:hover{
+    background-color:#54c2d8;
+    color:#fff;
+}
+
+#deliveryVehicleName {
+    border: #0E8EA8;
+    border-radius: 8px;
+    background-color: #83D1E1 ;
+    font-weight: bold;
+    color:#212529;
+    padding: .5em;
+    text-align: center;
+}
+
+#deliveryName{
+    background-color: #83D1E1;
+    border: #83D1E1;
+    text-align: center;
+    font-weight: bold;
+}
+
+#deliverySurName{
+    background-color: #83D1E1;
+    border: #83D1E1;
+    text-align: center;
+    font-weight: bold;
+}
+
+#deliveryPhone{
+    background-color: #83D1E1;
+    border: #83D1E1;
+    text-align: center;
+    font-weight: bold;
+}
+
+#deliveryAddress{
+    background-color: #83D1E1;
+    border: #83D1E1;
+    text-align: center;
+    font-weight: bold;
+}
+
+#deliveryReturnTime{
+    background-color: #83D1E1;
+    border: #83D1E1;
+    text-align: center;
+    font-weight: bold;
+}
+
+select * {
+        border-radius: 8px;
+        color:#212529;
+        padding: 100;
+        text-align: center;
+}
+
+.selectedstaffTable{
+    background-color: #0e8ea8a2;
+    color: #fff;   
+}
+
+.selecteddeliveryTable{
+    background-color: #0e8ea8a2;
+    color: #fff;   
+}
+
+img {border-radius: 5px;}
+
+.btn-Negative{
+    font-family:Consolas;
+    background-color: #dc3545;
+    color:#fff;
+    border:none;
+    box-shadow: inset -2px -2px 2px 2px rgba(15, 15, 15, 0.288);
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.btn-Negative:hover{
+    font-family:Consolas;
+    background-color: #dc3545;
+    color:#ffff;
+    border-radius:5px;
+    border:5px;
+    box-shadow: -3px 3px 2px  rgba(15, 15, 15, 0.411);
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    transform: translateY(-2px);
+}
+
+.btn-Positive{
+    font-family:Consolas;
+    background-color: #198754;
+    color:#fff;
+    border:none;
+    box-shadow: inset -2px -2px 2px 1px rgba(15, 15, 15, 0.288);
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+    transition: transform .3s;
+}
+.btn-Positive:hover{
+    font-family:Consolas;
+    background-color: #198754;
+    color:#ffff;
+    border-radius:5px;
+    border:5px;
+    box-shadow: -3px 3px 2px  rgba(15, 15, 15, 0.411);
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    transform: translateY(-2px);
+}
+
+.sweet-warning{
+    font-family:Consolas;
+    background-color: #198754;
+    color:#fff;
+    box-shadow: inset -2px -2px 2px 2px rgba(15, 15, 15, 0.288);
+    transition: transform .3s;
+}
+
+.sweet-warning:not([disabled]):hover{
+    font-family:Consolas;
+    background-color: #198754ea;
+    box-shadow: -3px 3px 2px  rgba(15, 15, 15, 0.411);
+    min-width: 80px;
+    color:#fff;
+    font-weight: bold;
+    transform: translateY(-2px)
+   }
+
+#dateClock {
+ font-size: 18px;
+ font-weight: 600;
+ font-family: "Segoe UI", sans-serif;
+ text-align:center;
+ padding : 5px;
+ color: #fff;
+ background-color: #212529;
+ box-shadow: 0 0 10px rgba(0,0,0,0.25);
+ border-radius: .5em;
+ border-right: 10px #0E8EA8 solid;
+ width: 200px;
+}
+
+.date{
+    color: #ffffff; 
+    letter-spacing: 2px;
+}
+
+.clock{
+    margin-top: 1px;
+}
+
+.box{
+    width: 400px;
+    height: 200px;
+
+}
+
+p { 
+    font-family: Calibri;
+    color:  #212529;
+}
